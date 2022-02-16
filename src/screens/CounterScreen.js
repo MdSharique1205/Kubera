@@ -6,7 +6,7 @@ const CounterScreen = () =>{
     const [counter, setCounter] = useState(0);
     return(
         <View>
-            <Text>{Math.trunc(Math.random()*100)}</Text>
+            
             <Text style = {{fontSize: 30,}}>Counter: {counter}</Text>
             <Button title = 'increase' onPress={()=>{  
                 setCounter(counter+1);
