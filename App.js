@@ -19,7 +19,7 @@ const navigator = createStackNavigator(
     Temp: TempScreen,
   },
   {
-    initialRouteName: "Home",
+    initialRouteName: "Temp",
     defaultNavigationOptions: {
       title: "App",
     },
